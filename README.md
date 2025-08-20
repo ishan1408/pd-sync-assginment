@@ -36,56 +36,36 @@ pd-sync-assginment/
 ├── tsconfig.json
 └── README.md
 
-yaml
-Copy
-Edit
-
----
 
 ## ⚙️ Setup & Installation
 
 1. **Clone the repository**
-   ```bash
+
    git clone https://github.com/ishan1408/pd-sync-assginment.git
    cd pd-sync-assginment
+   
 Install dependencies
 
-bash
-Copy
-Edit
 pnpm install
 Configure environment variables
 Create a .env file in the root:
 
-env
-Copy
-Edit
 PIPEDRIVE_COMPANY_DOMAIN=ishan-sandbox
 PIPEDRIVE_API_TOKEN=your_api_token_here
 Build the project
 
-bash
-Copy
-Edit
 pnpm build
 Run the project
-
-bash
-Copy
-Edit
 pnpm start
+
 🔗 API Endpoints (Test on Postman)
 1. Check if person exists
-bash
-Copy
-Edit
+
 GET https://{company_domain}.pipedrive.com/api/v1/persons/search?term={personName}&api_token={api_token}
 Example:
 
-bash
-Copy
-Edit
 GET https://ishan-sandbox.pipedrive.com/api/v1/persons/search?term=John&api_token=your_api_token
+
 📜 Scripts
 pnpm build → Compile TypeScript to JavaScript
 
@@ -99,12 +79,8 @@ Feel free to fork the repo, create a new branch, and submit a PR if you’d like
 📧 Contact
 👤 Ishan Jain
 
-GitHub: @ishan1408
+GitHub: @ishan1408, @ishanjain1408
 
-Email: your-email@example.com
-
-pgsql
-Copy
-Edit
+Email: ishanjain1408@gmail.com
 
 Do you want me to also **add this README.md to your repo and push it** (with git commands), or just keep it as content for you to copy?
