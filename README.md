@@ -1,4 +1,4 @@
-# 📌 Pipedrive Sync Assignment
+# 📌 Pipedrive Data Synchronization Assignment
 
 This project is a **Node.js + TypeScript** service for syncing **Pipedrive CRM data**.  
 It provides functionality to check if a person exists in Pipedrive, create a new person if not, and manage API communication securely using environment variables.
