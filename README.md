@@ -82,5 +82,3 @@ Feel free to fork the repo, create a new branch, and submit a PR if you’d like
 GitHub: @ishan1408, @ishanjain1408
 
 Email: ishanjain1408@gmail.com
-
-Do you want me to also **add this README.md to your repo and push it** (with git commands), or just keep it as content for you to copy?
