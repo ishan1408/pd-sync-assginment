@@ -79,6 +79,6 @@ Feel free to fork the repo, create a new branch, and submit a PR if you’d like
 📧 Contact
 👤 Ishan Jain
 
-GitHub: @ishan1408, @ishanjain1408
+GitHub: @ishan1408
 
 Email: ishanjain1408@gmail.com
