@@ -5,7 +5,7 @@
   },
   {
     "pipedriveKey": "email",
-    "inputKey": "emailAdress"
+    "inputKey": "emailAddress"
   },
   {
     "pipedriveKey": "phone",

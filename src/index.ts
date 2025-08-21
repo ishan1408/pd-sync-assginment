@@ -37,7 +37,18 @@ const mapInputToPipedrive = (): Record<string, any> => {
   const payload: Record<string, any> = {};
   mappings.forEach(({ pipedriveKey, inputKey }) => {
     const value = inputKey.split(".").reduce((obj: any, key: string) => obj?.[key], inputData);
-    if (value !== undefined) payload[pipedriveKey] = value;
+    if (value !== undefined) {
+  if (pipedriveKey === "email" && typeof value === "string") {
+    // Wrap email string into Pipedrive’s expected array format
+    payload[pipedriveKey] = [{ label: "work", value, primary: true }];
+  } else if (pipedriveKey === "phone" && typeof value === "string") {
+    // Wrap phone string into array format
+    payload[pipedriveKey] = [{ label: "work", value, primary: true }];
+  } else {
+    payload[pipedriveKey] = value;
+  }
+}
+
   });
   return payload;
 };
