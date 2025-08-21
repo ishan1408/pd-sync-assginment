@@ -47,11 +47,13 @@ pd-sync-assginment/
 Install dependencies
 
 pnpm install
+
 Configure environment variables
 Create a .env file in the root:
 
 PIPEDRIVE_COMPANY_DOMAIN=ishan-sandbox
 PIPEDRIVE_API_TOKEN=your_api_token_here
+
 Build the project
 
 pnpm build
